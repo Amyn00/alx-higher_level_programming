@@ -5,11 +5,13 @@ if __name__ == "__main__":
     import sys
 
     if len(sys.argv) - 1 != 3:
-        print("Usage: ./100-my_calculator.py <a> <operator> <b>\n")
+        print("Usage: ./100-my_calculator.py <a> <operator> <b>")
+        print("\n")
         sys.exit(1)
     ops = {"+": add, "-": sub, "*": mul, "/": div}
     if sys.argv[2] not in list(ops.keys()):
-        print("Unknow operator. Available operators: +, -, * and /\n")
+        print("Unknow operator. Available operators: +, -, * and /")
+        print("\n")
         sys.exit(1)
     a = int(sys.argv[1])
     b = int(sys.argv[3])
