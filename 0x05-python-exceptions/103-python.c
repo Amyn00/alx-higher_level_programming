@@ -1,6 +1,11 @@
 #define PY_SSIZE_T_CLEAN
 #include <Python.h>
 #include <stdio.h>
+
+void print_python_list(PyObject *p);
+void print_python_bytes(PyObject *p);
+void print_python_float(PyObject *p);
+
 /**
  * print_python_list - print python list
  * @p: input
@@ -20,7 +25,7 @@ void print_python_list(PyObject *p)
 		if (PyBytes_Check(l->ob_item[i]))
 			print_python_bytes(l->ob_item[i]);
 		else if (PyFloat_Check(l->ob_item[i]))
-			print_python_float(list->ob_item[i]);
+			print_python_float(l->ob_item[i]);
 	}
 }
 /**
@@ -29,7 +34,7 @@ void print_python_list(PyObject *p)
  */
 void print_python_bytes(PyObject *p)
 {
-	PyByteObject *bytes = (PyBytesObject *)p;
+	PyBytesObject *bytes = (PyBytesObject *)p;
 	Py_ssize_t i, size;
 
 	printf("[.] bytes object info\n");
