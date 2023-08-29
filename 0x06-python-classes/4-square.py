@@ -4,6 +4,7 @@
 
 class Square:
     """Class - Square"""
+
     def __init__(self, size=0):
         """Constructor of a square with the size"""
         if type(size) is not int:
@@ -25,7 +26,7 @@ class Square:
     def size(self, value):
         """Setter for the private size attribute"""
         if type(value) is not int:
-            raise TypeError("size must be integer")
+            raise TypeError("size must be an integer")
         elif value < 0:
             raise ValueError("size must be >= 0")
         else:
