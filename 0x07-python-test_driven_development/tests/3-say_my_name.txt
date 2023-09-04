@@ -1,0 +1,24 @@
+# Test cases for say_my_name function
+>>> say_my_name = __import__('3-say_my_name').say_my_name
+
+# Test case 1: Print full name
+>>> say_my_name("John", "Smith")
+My name is John Smith
+
+# Test case 2: Print first name only
+>>> say_my_name("Walter", "White")
+My name is Walter White
+
+# Test case 3: Print first name only with default last name
+>>> say_my_name("Bob")
+My name is Bob
+
+# Test case 4: Passing an integer as first_name (should raise TypeError)
+>>> print(say_my_name(12, "White"))
+Traceback (most recent call last):
+TypeError: first_name must be a string
+
+# Test case 5: Passing an integer as last_name (should raise TypeError)
+>>> print(say_my_name("John", 19))
+Traceback (most recent call last):
+TypeError: last_name must be a string
