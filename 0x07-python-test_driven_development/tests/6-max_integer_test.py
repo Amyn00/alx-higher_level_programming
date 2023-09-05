@@ -36,12 +36,12 @@ class TestMaxInteger(unittest.TestCase):
     def test_floats(self):
         """Test list of floats"""
         list_floats = [1.2, 3.4, 7.1, 23.5]
-        self.assertEqual(max_integer(list_floats), 7.1)
+        self.assertEqual(max_integer(list_floats), 23.5)
 
     def test_ints_and_floats(self):
         """Test list of ints and floats"""
         int_and_float = [7, 23.4, 34, 92.4]
-        self.assertEqual(max_integer(int_and_float), 7)
+        self.assertEqual(max_integer(int_and_float), 92.4)
 
     def test_string(self):
         """Test one string"""
@@ -51,12 +51,12 @@ class TestMaxInteger(unittest.TestCase):
     def test_list_of_strings(self):
         """Test list of strings"""
         strings = ["Who", "am", "i", "?"]
-        self.assertEqual(max_integer(strings), "Who")
+        self.assertEqual(max_integer(strings), "i")
 
     def test_empty_string(self):
         """Test an empty string"""
         self.assertEqual(max_integer(""), None)
 
 
-if __name__ = '__main__':
+if __name__ == '__main__':
     unittest.main()
