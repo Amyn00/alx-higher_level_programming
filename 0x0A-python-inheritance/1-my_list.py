@@ -1,16 +1,10 @@
 #!/usr/bin/python3
-"""
-script task 1. My list.
-"""
+"""Defines an inherited list class MyList."""
 
 
 class MyList(list):
-    """
-    Write a class MyList that inherits from list:
+    """Implements sorted printing for the built-in list class."""
 
-    """
     def print_sorted(self):
-        """
-        print a sorted list ascd
-        """
+        """Print a list in sorted ascending order."""
         print(sorted(self))
