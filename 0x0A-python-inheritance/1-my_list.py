@@ -19,9 +19,8 @@ class MyList(list):
         print(my_list)      # Output: [1, 4, 2, 3, 5]
         my_list.print_sorted()  # Output: [1, 2, 3, 4, 5]
         print(my_list)      # Output: [1, 4, 2, 3, 5]
-                                                                                
     """
-    
+
     def print_sorted(self):
         """Print the list in sorted ascending order."""
         print(sorted(self))
