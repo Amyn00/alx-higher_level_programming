@@ -1,0 +1,13 @@
+# Test Case 1
+- Create an empty MyList
+- Append elements 1, 4, 2, 3, 5 to the MyList
+- Print the MyList
+- Call print_sorted() method
+- Print the MyList again
+
+Expected Output:
+[]
+[1, 4, 2, 3, 5]
+[1, 2, 3, 4, 5]
+[1, 4, 2, 3, 5]
+
