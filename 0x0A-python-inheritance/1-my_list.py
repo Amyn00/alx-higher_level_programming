@@ -4,7 +4,7 @@ script task 1. My list.
 """
 
 
-class Mylist(list):
+class MyList(list):
     """
     Write a class MyList that inherits from list:
 
