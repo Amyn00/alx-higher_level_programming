@@ -50,3 +50,14 @@ class Square(Rectangle):
         return "[Square] ({}) {}/{} - {}".format(self.id,
                                                  self.x, self.y,
                                                  self.size)
+
+    def to_dictionary(self):
+        """Update the class Square by adding the public method
+        def to_dictionary(self): that returns the dictionary representation
+        of a Square."""
+        return {
+            "id": self.id,
+            "size": self.width,
+            "x": self.x,
+            "y": self.y
+        }
