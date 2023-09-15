@@ -24,3 +24,23 @@ class Square(Rectangle):
     def size(self, value):
         self.width = value
         self.height = value
+
+    def update(self, *args, **kwargs):
+        """Update the class Square by adding the public method def update(...)
+        that assigns attrs.
+        Args:
+            *args: is the list of arguments - no-keyworded arguments.
+                1st argument should be the id attribute
+                2nd argument should be the size attribute
+                3rd argument should be the x attribute
+                4th argument should be the y attribute
+            **kwargs: can be thought of as a double pointer to a dictionary:
+                      key/value (keyworded arguments)
+        """
+        if args:
+            arg_name =["id", "size", "x", "y"]
+            for i, arg in enumerate(args):
+                setattr(self, arg_name[i], arg)
+        else:
+            for key, value in kwargs.items():
+                setattr(self, key, value)
