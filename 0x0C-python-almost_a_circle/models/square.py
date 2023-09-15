@@ -44,3 +44,9 @@ class Square(Rectangle):
         else:
             for key, value in kwargs.items():
                 setattr(self, key, value)
+
+    def __str__(self):
+        """Returns [Square] (<id>) <x>/<y> - <size>"""
+        return "[Square] ({}) {}/{} - {}".format(self.id,
+                                                 self.x, self.y,
+                                                 self.size)
