@@ -38,7 +38,7 @@ class Square(Rectangle):
                       key/value (keyworded arguments)
         """
         if args:
-            arg_name =["id", "size", "x", "y"]
+            arg_name = ["id", "size", "x", "y"]
             for i, arg in enumerate(args):
                 setattr(self, arg_name[i], arg)
         else:
@@ -56,8 +56,8 @@ class Square(Rectangle):
         def to_dictionary(self): that returns the dictionary representation
         of a Square."""
         return {
-            "id": self.id,
-            "size": self.width,
-            "x": self.x,
-            "y": self.y
+            'id': self.id,
+            'size': self.width,
+            'x': self.x,
+            'y': self.y
         }
