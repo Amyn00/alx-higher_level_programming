@@ -50,3 +50,14 @@ class Base:
                 jsonfile.write("[]")
             else:
                 jsonfile.write(json_string)
+
+    @staticmethod
+    def from_json_string(json_string):
+        """That return the list of the JSON string representation json_string
+
+        Args:
+            json_string (str): is a string representing a list of dict
+        """
+        if json_string is None or json_string == "[]":
+            return []
+        return json.loads(json_string)
