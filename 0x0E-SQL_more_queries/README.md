@@ -127,6 +127,5 @@ id  name
 8   Thriller
 $
 ```
-
-
+**SQL JOINS**
 <img src="https://github.com/Amyn00/alx-higher_level_programming/blob/master/0x0E-SQL_more_queries/sql_join.png" />
