@@ -1,5 +1,4 @@
 # 0x0E. SQL - More queries
-
 ## Resources
 **Read or watch:**
 * [How To Create a New User and Grant Permissions in MySQL](https://www.digitalocean.com/community/tutorials/how-to-create-a-new-user-and-grant-permissions-in-mysql)
@@ -16,15 +15,12 @@
 * [SQL Style Guide](https://www.sqlstyle.guide)
 * [MySQL 8.0 SQL Statement Syntax](https://dev.mysql.com/doc/refman/8.0/en/sql-statements.html)
 Extra resources around relational database model design:
-
 * [Design](https://www.guru99.com/database-design.html)
 * [Normalization](https://www.guru99.com/database-normalization.html)
 * [ER Modeling](https://www.guru99.com/er-modeling.html)
 
 ## Learning Objectives
-
 ### General
-
 * How to create a new MySQL user
 * How to manage privileges for a user to a database or table
 * What’s a `PRIMARY KEY`
