@@ -105,6 +105,9 @@ $
 **In the container, credentials are `root/root`**
 
 ### How to import a SQL dump
+
+<img src="https://github.com/Amyn00/alx-higher_level_programming/blob/master/0x0E-SQL_more_queries/images/sql_join.png"/>
+
 ````bash
 $ echo "CREATE DATABASE hbtn_0d_tvshows;" | mysql -uroot -p
 Enter password: 
@@ -123,6 +126,3 @@ id  name
 8   Thriller
 $
 ```
-### SQL JOINS
-**sql_join**
-<img src="https://github.com/Amyn00/alx-higher_level_programming/blob/master/0x0E-SQL_more_queries/images/sql_join.png"/>
