@@ -108,7 +108,7 @@ $ sudo apt-get install python3.8-venv
 $ python3 -m venv venv
 $ source venv/bin/activate
 ```
-#### Install <font color="red">`MySQLdb`</font> module version <font color="red">`2.0.x`</font>
+#### Install <font color="red">MySQLdb</font> module version <font color="red">2.0.x</font>
 
 For installing `MySQLdb`, you need to have `MySQL` installed: [How to install MySQL 8.0 in Ubuntu 20.04](https://github.com/Amyn00/alx-higher_level_programming/blob/master/0x0D-SQL_introduction/README.md)
 ```bash
