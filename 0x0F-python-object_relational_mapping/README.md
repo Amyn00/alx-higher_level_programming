@@ -123,7 +123,7 @@ $ python3
 (2, 0, 3, 'final', 0)
 ```
 
-#### Install <font color="red">`SQLAlchemy`</font> module version <font color="red">`1.4.x`</font>
+#### Install <p style="color:red">SQLAlchemy</p> module version <font color="red">1.4.x</font>
 
 ```bash
 $ sudo pip3 install SQLAlchemy
